@@ -17,6 +17,7 @@ a {
 }
 
 .header {
+    flex: 1;
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -85,6 +86,7 @@ button {
 }
 
 .information {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,6 +114,7 @@ button {
 }
 
 .quote {
+    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
@@ -128,4 +131,16 @@ button {
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.sign-up {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-between;
 }
