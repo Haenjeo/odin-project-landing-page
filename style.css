@@ -131,13 +131,28 @@ button {
 
 .sign-up {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .sign-up-box {
+    flex: 1;
     display: flex;
+    margin: 100px 200px;
+    padding: 48px 96px;
+    background-color: #3382f6;
     justify-content: space-between;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
+
+.sign-up-box-left > .title {
+    font-weight: 900;
+}
+
+
+.sign-up-box > button {
+    border: 2px solid #f9faf8;
+    align-self: center;
+
 }
 
 .footer {
